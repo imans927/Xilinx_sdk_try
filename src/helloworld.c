@@ -77,6 +77,7 @@ int main()
     XTime tStart,tEnd;
 
 
+
     // look up the device config
 
     predictive_ctrl_ptr=XPredictive_controller_LookupConfig(XPAR_PREDICTIVE_CONTROLLER_0_DEVICE_ID);
@@ -106,6 +107,7 @@ int main()
 
 
    printf("Hello World\n\r");
+   printf("Added this line in try branch");
 
    printf("\n Nh is %d \n",Nh);
 
